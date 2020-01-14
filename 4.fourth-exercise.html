@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            4.fourth-exercise
+        </title>
+        <style>
+            table{margin: auto;}
+            tr{background-color: rgb(36, 184, 253);}
+            input {background-color:rgb(187, 253, 174);}
+            button {width: 30%; background-color:rgb(187, 253, 174);}
+            textarea {background-color:rgb(187, 253, 174); width: 90%;}    
+        </style>
+    </head>
+    <body>
+        <form> 
+            <table border="3,5px" style="border-style: outset;" width="700px" cellpadding="4px" cellspacing="4px">
+                <tr style="background-color: rgb(250, 252, 166); color: red; text-align: center;">
+                    <th style="font-size: 30px;" colspan="2">User Form</th>
+                </tr>
+                <tr>
+                    <td>Enter Name</td>
+                    <td align="center"> 
+                        <input style="width: 90%;" type="text" name="fullname">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Enter Password</td>
+                    <td align="center"> 
+                        <input style="width: 90%;" type="password" name="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Enter Address</td>
+                    <td align="center">
+                        <textarea cols="30" rows="3"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Select Game</td>
+                    <td>
+                        <input type="checkbox" name="sportselector" value="Hockey">Hockey <br>
+                        <input type="checkbox" name="sportselector" value="Football">Footbal <br>
+                        <input type="checkbox" name="sportselector" value="Badminton">Badminton <br>
+                        <input type="checkbox" name="sportselector" value="Cricket">Cricket <br>
+                        <input type="checkbox" name="sportselector" value="volleyball">volleyball <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" name="Gender" value="Male" checked>Male
+                        <input type="radio" name="Gender" value="Female">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Select ur age</td>
+                    <td align="center">
+                        <select style="width: 90%; background-color: rgb(187, 253, 174);">
+                            <option value="selectage">select</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input class="inputfile" type="file">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <button>Click Me</button>
+                        <button>Reset</button>
+                        <button>Submit Form</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html> 

@@ -1,0 +1,50 @@
+ /*Start of the first part*/
+ .firstdiv {
+    background-color:whitesmoke;
+    text-align: center;
+    color: black;
+    height: 6%;
+    padding: 6%
+}
+/*first button*/
+.firstbutton{
+    background-color:whitesmoke;
+    border: 1px solid black;
+    border-radius: 4px;
+    text-align: center;
+    color: black;
+    padding:10px 20px 10px 20px;
+}
+/*Start of the second part*/
+.seconddiv{
+    background-color: rgb(139, 138, 207);  
+    text-align: center;
+    color: white;
+    height: 6%;
+    padding: 6%
+}
+/*second button*/
+.secondbutton{
+    background-color:rgb(139, 138, 207);
+    border: 2px solid white;
+    border-radius: 34px;
+    text-align: center;
+    color: white;
+    padding:10px 20px 10px 20px;
+}
+/*Start of the third part*/
+.thirddiv{
+    background-color:rgb(73, 103, 105);
+    text-align: center;
+    color: rgb(139, 138, 207);
+    height: 6%;
+    padding: 6%
+}
+/*third button*/
+.thirdbutton{
+    background-color:rgb(73, 103, 105);
+    border: 1px solid whitesmoke;
+    text-align: center;
+    color: rgb(139, 138, 207);
+    padding:10px 20px 10px 20px;
+}

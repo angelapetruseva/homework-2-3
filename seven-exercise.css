@@ -1,0 +1,33 @@
+input{
+    background-color:rgb(80, 71, 69);
+    width: 90%;
+    height: 10%;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    border-color: rgb(107, 106, 99);
+    border-style: solid;
+    border-radius: 4px;
+}
+div{
+    border: 20px solid white;
+    background-color:rgb(80, 71, 69);
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+::placeholder{
+    color:white;
+}
+button{
+    background-color:rgb(197, 209, 137);
+    width: 96%;
+    height: 10%;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 20px;
+}
